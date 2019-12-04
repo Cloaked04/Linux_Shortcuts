@@ -1,8 +1,8 @@
-# Linux_Shortcuts
+# Linux_Commands
 This repo has mutiple useful Linux command
 **Performance Preferences**
 ____________________________________________________
-cat /sys/devices/system/cpu/cpufreq/policy*/energy_performance_preference <br/>
+*Check current performance status:*cat /sys/devices/system/cpu/cpufreq/policy*/energy_performance_preference <br/>
 *Change preference: Change preference after echo* echo performance | sudo tee /sys/devices/system/cpu/cpufreq/policy*/energy_performance_preference
 
 **Killing Process**
