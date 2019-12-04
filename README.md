@@ -10,5 +10,5 @@ _____________________________________________________
 *Check running processes:* ps aux | grep -i apt<br/>
 Notice the key<br/>
 *Kill process using:* sudo kill -9 <process id><br/>
-*Kill all instances of a running program:* sudo killall apt apt-get<>
+*Kill all instances of a running program:* sudo killall apt apt-get<br/>
 
